@@ -1,1 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 5em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav {
+    border-top: 0.5em solid lightgray;
+    border-bottom: 0.5em solid lightgray;
+    color: lightgray;
+    list-style-type: none;
+    
+}
+li {
+    color: lightgray;
+    display: inline;
+    margin-right: 1em;
+    
+}
+a {
+    color: lightgray;
+}
+h5{
+    color: red;
+} 
+main > p {
+    text-align: justify;
+}
+body {
+    box-shadow: 0 0 0 25em lightgray;
+    margin: 15em 15em 15em 15em;
+    padding: 5em 2em 5em 2em;
+    background-color: white;
+    border-radius: 5em 5em 5em 5em;
+}
+
+h5 > img{
+    width: 55em;
+    height: 20em;
+}
+
+ .more-articles {
+    display: inline-flex;
+    float: left;
+    border: 0.5em solid black;
+    padding: 0 20em;
+    width: 20em;
+    height: 20em;
+    clear: both;
+ }
+  
+    
+   /*height: 20em;
+    width: 40em;
+    padding:1em;   
+    display: inline-block;
+    text-align:right;
+}
