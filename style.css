@@ -29,9 +29,9 @@ main > p {
     text-align: justify;
 }
 body {
+    padding: 3em 3em 3em 3em;
+    margin: 5em 5em 5em 5em;
     box-shadow: 0 0 0 25em lightgray;
-    margin: 15em 15em 15em 15em;
-    padding: 5em 2em 5em 2em;
     background-color: white;
     border-radius: 5em 5em 5em 5em;
 }
@@ -41,14 +41,11 @@ h5 > img{
     height: 20em;
 }
 
- .more-articles {
+.more-articles>section>img {
     display: inline-flex;
-    float: left;
     border: 0.5em solid black;
-    padding: 0 20em;
     width: 20em;
     height: 20em;
-    clear: both;
  }
   
     
